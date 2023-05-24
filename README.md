@@ -19,7 +19,7 @@ Also, step 6 in [How to train (to detect your custom objects)](https://github.co
 ![image](https://github.com/CharlesChang012/darknet_dataset_prep/blob/main/pictures/folders.jpg)
 2. Create folders for training set and validation set under *darknet-master\build\darknet\x64\data\obj* like the following:
 ![image](https://github.com/CharlesChang012/darknet_dataset_prep/blob/main/pictures/obj_folder.jpg)
-3. Run darknet_dataset_prep.py under *darknet-master\build\darknet\x64\data*
+3. Run **darknet_dataset_prep.py** under *darknet-master\build\darknet\x64\data*
    ```sh
    $ python3 darknet_dataset_prep.py
    ```
