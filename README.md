@@ -1,7 +1,7 @@
 # Data preperation for darknet
 This repository provides code to alleviate the data preperation process for training darknet.<br />
 Inspired by the [modified darket repository](https://github.com/AlexeyAB/darknet), we cannot start training if any txt file name does not match with jpg file name. That is because there won't be any matching txt file when there is no class object in the jpg file. <br />
-Also, step 6 in [How to train (to detect your custom objects)](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects) requires users to create train.txt with filenames of users' training image, each in a new line.
+Also, step 6 in [How to train (to detect your custom objects)](https://github.com/AlexeyAB/darknet#how-to-train-to-detect-your-custom-objects) requires users to create train.txt with filenames of users' training images, each in a new line.
 * Resolution
   * Creates empty txt file for corresponding jpg file.
   * Automatically creates train.txt and valid.txt with jpg filenames in them.
