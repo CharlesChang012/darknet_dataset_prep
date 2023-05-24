@@ -23,5 +23,5 @@ Also, step 6 in [How to train (to detect your custom objects)](https://github.co
    ```sh
    $ python3 darknet_dataset_prep.py
    ```
-  Training resulting dataset and validation dataset will be in darknet-master\build\darknet\x64\data\obj\train and darknet-master\build\darknet\x64\data\obj\valid.
+  Training resulting dataset and validation dataset will be in darknet-master\build\darknet\x64\data\obj\train and darknet-master\build\darknet\x64\data\obj\valid.<br />
   train.txt and valid.txt used for training will be automatiaclly written.
