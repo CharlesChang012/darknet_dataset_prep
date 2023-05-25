@@ -2,17 +2,8 @@ import os, glob
 import shutil
 import pathlib
 
-#train_jpg_path = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\train_jpg"
-#train_txt_path = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\train_txt"
-#train_destination_folder = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\obj\train"
-
-#valid_jpg_path = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\valid_jpg"
-#valid_txt_path = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\valid_txt"
-#valid_destination_folder = r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\obj\valid"
-
-
-x64_data_path = pathlib.Path().resolve() # r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data
-obj_folder = os.path.join(x64_data_path, "obj") # r"C:\Users\spacelab\Desktop\Charles\Autonomous Driving\AD_final\darknet-master\darknet-master\build\darknet\x64\data\obj
+x64_data_path = pathlib.Path().resolve() 
+obj_folder = os.path.join(x64_data_path, "obj")
 
 def write_empty_txt(dataset_type):
     jpg_list = []
